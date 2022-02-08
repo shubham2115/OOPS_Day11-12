@@ -6,7 +6,7 @@ namespace OOPSConcept
         public static void Main()
         {
             InventoryManagement inventoryManagement = new InventoryManagement();
-            inventoryManagement.ReadData(@"D:\OOPS1\Inventory.json");
+            inventoryManagement.ReadData(@"D:\OOPSConcept\OOPS_Day11-12\Inventory.json");
             Console.ReadKey();
         }
         

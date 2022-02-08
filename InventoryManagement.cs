@@ -19,11 +19,11 @@ namespace OOPSConcept
                 using (StreamReader reader = new StreamReader(filepath))
                 {
                     var json = reader.ReadToEnd();
-                    var items = JsonConvert.DeserializeObject<List<Inventory>>(json);
+                    var items = JsonConvert.DeserializeObject<List<Inventorylist>>(json);
                     Console.WriteLine("Name\t" + "Price\t" + "Weight\t" + "Total Amount");
                     foreach (var data in items)
                     {
-                        Console.WriteLine(data.Name + "\t" + data.Price + "\t" + data.Weight + "\t" + data.Price * data.Weight);
+                        Console.WriteLine(data.Ricelist + "\t" +data.Price + "\t" + data.Weight + "\t" + data.Price * data.Weight);
                     }
                 }
             }catch (Exception ex)

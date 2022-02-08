@@ -1,17 +1,23 @@
 [
-{
-"Name":"Rice",
-"Price":30,
-"Weight":10
-},
-{
-"Name":"Wheat",
-"Price":25,
-"Weight":10
-},
-{
-"Name":"Pulses",
-"Price":40,
-"Weight":10
-}
+
+  {
+    "Ricelist": "Basmati Rice",
+    "Price": 30,
+    "Weight": 10
+  },
+  {
+    "Ricelist": "Brown Rice",
+    "Price": 25,
+    "Weight": 10
+  },
+  {
+    "Ricelist": "Jasmine Rice",
+    "Price": 40,
+    "Weight": 10
+  },
+
+
+{"Ricelist": "wheat",
+    "Price": 40,
+    "Weight": 20}
 ]

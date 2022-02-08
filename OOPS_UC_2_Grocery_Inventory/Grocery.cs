@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPSConcept
+namespace OOPS_UC_2_Grocery_Inventory
 {
-    public class Inventorylist
+    public class Grocery
     {
-        public string Ricelist { get; set; }
-        public int Price { get; set; }
+        public string Name { get; set; }
         public int Weight { get; set; }
+        public int Price { get; set; }
     }
 }
