@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Titan",
+    "NumberOfShare": 100,
+    "sharePrice": 500
+  },
+  {
+    "Name": "Tata Steel",
+    "NumberOfShare": 20,
+    "sharePrice": 100
+  },
+  {
+    "Name": "Bhel",
+    "NumberOfShare": 10,
+    "sharePrice": 80
+  },
+  {
+    "Name": "Mahindra",
+    "NumberOfShare": 60,
+    "sharePrice": 75
+  }
+
+]
